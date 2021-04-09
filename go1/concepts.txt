@@ -1,0 +1,6 @@
+lockdown:lockdown lockdowns shutdown curfew shutdowns shelterinplace restrictions closures shutting
+mask:mask masks n95 respirator respirators facemask n95s facemasks ffp3 n99
+covid:covid covid19 coronavirus corona virus pandemic outbreak cv19 viral epidemic ncov
+stimulus:stimulus bailout bailouts stimulate handout
+china:china chinas chinese ccp wuhan beijing prc gtchina
+vaccine:vaccine vaccines vaccination vaccinated vaccinations vaccinate antibody antibodies

@@ -1,0 +1,4 @@
+/scratch/orie3748/GraphSAGE_v2_prep/run/encoders.py:31: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  init.xavier_uniform(self.weight)
+model.py:46: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  init.xavier_uniform(self.weight)
