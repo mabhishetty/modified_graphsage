@@ -32,6 +32,10 @@
 
 - **data_store** contains all the data go1 needs to run on. There are two graphs, for testing and training (s5 is for training and s6 is meant for test/val). There are feature and label NumPy arrays too (dtype=object - hence allow_pickle=True - here because subreddit names are stored within)
 - **requirementsNEW.txt** contains all the Python modules that were installed in my virtualenv on ARC when I ran these jobs. Not all can be installed using conda, some need pip
+- **assembly_gsage_feats_gsage2.py** has the code I used to generate the feature vectors. The input feature matrices have 14-element feature vectors for each node, where the elements of the vector correspond to the actual frequency of a given concept on a day in the 2-week slice.
+  
+  These are modified to form a 12-element feature vector for each node. The first 6 elements are total frequencies of each concept at that node over the 2 week period (so summing over a feature vector in the input Numpy matrix). The last 6 elements are the *changes* in frequencies of those concepts from the last slice.
+  (eg: [freq_of_concept #1 freq_con_#2 freq_con_#3 freq_con_#4 freq_con_#5 freq_con_#6 change_in_freq_con_#1 change_in_freq_con_#2 change_in_freq_con_#3 change_in_freq_con_#4 change_in_freq_con_#5 change_in_freq_con_#6]
 
 #### The problem
 
